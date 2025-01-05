@@ -1,15 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Dependency_Injection__DI__Extensions_for_.NET</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>Dependency_Injection__DI__Extensions_for_.NET</RootNamespace>
+		<PackageId>DependencyInjection.AdvancedExtensions</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Your Name</Authors>
+		<Description>A set of extension methods for dependency injection in .NET, including advanced service lifetimes and interceptors.</Description>
+		<PackageTags>dependency injection, DI, .NET, extensions</PackageTags>
+		<RepositoryUrl>https://github.com/momenshaker/Dependency-Injection-DI-Extensions-for-.NET</RepositoryUrl>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+	</ItemGroup>
 
 </Project>
